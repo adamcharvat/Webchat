@@ -10,7 +10,7 @@ RUN yarn install
 
 # Copy the remaining assets and build the application
 COPY . /usr/src/app
-RUN yarn build
+RUN yarn start
 
 # Copy files from the build stage to the smaller base image
 FROM nginx:mainline-alpine
