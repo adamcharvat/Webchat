@@ -10,4 +10,4 @@ RUN yarn install
 
 # Copy the remaining assets and build the application
 COPY . /usr/src/app
-RUN yarn start
+RUN yarn build
